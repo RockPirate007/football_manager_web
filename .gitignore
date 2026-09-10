@@ -1,0 +1,35 @@
+# dependencies
+node_modules/
+.pnp
+.pnp.*
+
+# next.js
+/.next/
+/out/
+/build/
+next-env.d.ts
+
+# production
+/dist/
+
+# misc
+.DS_Store
+*.pem
+*.log
+server.log
+
+# env — секретов и локальных путей не публикуем
+.env
+.env.local
+.env.*.local
+
+# prisma / база данных
+/db/
+*.db
+*.db-journal
+
+# typescript
+*.tsbuildinfo
+
+# testing
+/coverage/
